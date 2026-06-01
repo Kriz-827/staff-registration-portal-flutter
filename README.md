@@ -1,42 +1,65 @@
-# Staff Registration Portal
+# ⭐ Staff Registration Portal
 
-A Flutter-based mobile application for staff registration and management, developed as a team project. The application provides a secure and user-friendly platform for registering staff members, managing profiles, and maintaining staff records using Firebase services.
+![Flutter](https://img.shields.io/badge/Flutter-3.0-blue)
+![Dart](https://img.shields.io/badge/Dart-Language-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-orange)
+![Status](https://img.shields.io/badge/Project-Academic-green)
 
-## Features
+A cross-platform **Flutter-based Staff Registration and Management System** developed as an academic team project.  
+The application provides a secure and efficient platform for staff onboarding, profile management, and record maintenance using Firebase services.
 
-* Secure User Authentication using Firebase Authentication
-* Staff Registration and Profile Management
-* Real-Time Data Storage with Cloud Firestore
-* Search and Filter Functionality
-* Modern UI with Glassmorphism Design
-* Lottie Animations for Enhanced User Experience
-* Navigation Drawer for Easy Access
-* Shared Preferences for Local Data Persistence
-* Responsive and Interactive User Interface
+---
 
-## Technology Stack
+## 🚀 Features
 
-### Frontend
+- Secure user authentication using Firebase Authentication  
+- Staff registration and profile management system  
+- Real-time data storage with Cloud Firestore  
+- Search and filter functionality for staff records  
+- Modern UI with glassmorphism design approach  
+- Lottie animations for smooth user experience  
+- Navigation drawer for easy app navigation  
+- Local data persistence using Shared Preferences  
+- Fully responsive UI for multiple screen sizes  
 
-* Flutter
-* Dart
+---
 
-### Backend & Database
+## 🧰 Technology Stack
 
-* Firebase Authentication
-* Cloud Firestore
+### 📱 Frontend
+- Flutter  
+- Dart  
 
-### State Management
+### ☁ Backend & Database
+- Firebase Authentication  
+- Cloud Firestore  
 
-* Provider
+### ⚙ State Management
+- Provider  
 
-### UI & Animation
+### 🎨 UI / Animation
+- Lottie  
+- Flutter Animate  
+- Advanced Drawer  
 
-* Lottie
-* Flutter Animate
-* Advanced Drawer
+---
 
-## Project Structure
+## 🏗 Architecture Overview
+
+The application follows a **modular MVC-like structure**:
+
+- UI Layer → Screens (UI pages)
+- Logic Layer → Controllers / Functions
+- Data Layer → Firebase services
+
+This ensures:
+- Clean code separation  
+- Easy maintenance  
+- Scalable architecture  
+
+---
+
+## 📁 Project Structure
 
 ```text
 lib/
@@ -51,64 +74,55 @@ lib/
 ├── themes/
 ├── images/
 └── fonts/
+
+
 ```
+## 🎥Demo Video
 
-## Screenshots
+👉 Watch Demo:
+(https://drive.google.com/file/d/1GpdIFj9TogMnv2folhM6Ic0KayqE4_Gy/view?usp=drive_link)
 
-Add screenshots of:
-
-* Splash Screen
-* Login Page
-* Registration Form
-* Staff List Page
-* Profile Page
-
-## Demo Video
-
-Google Drive Link:
-[Add your demo video link here]
-
-## Installation
-
+## Installation Guide
 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/staff-registration-portal-flutter.git
-```
-
-2. Navigate to the project directory
-
-```bash
-cd staff-registration-portal-flutter
-```
-
+   git clone https://github.com/Kriz-827/staff-registration-portal-flutter.git
+2. Navigate to project directory
+   cd staff-registration-portal-flutter
 3. Install dependencies
-
-```bash
-flutter pub get
-```
-
+   flutter pub get
 4. Run the application
+   flutter run
 
-```bash
-flutter run
-```
+## 🔐 Firebase Setup
 
-## Future Enhancements
+To run this project:
 
-* Role-Based Access Control
-* Staff Attendance Management
-* Report Generation
-* Push Notifications
-* Cloud Storage Integration
-* Admin Dashboard
+Create a Firebase project
+Enable Authentication (Email/Password)
+Setup Cloud Firestore
+Download google-services.json
+Place it in:
+android/app/
+
+## 🔮 Future Enhancements
+
+Role-based access control (Admin / Staff / User)
+Attendance management system
+Automated report generation
+Push notifications system
+Cloud storage integration
+Admin analytics dashboard
 
 ## Team Project
-
-This project was developed as part of an academic team project.
-
+Developed as part of flutter internship at ICT academy
 Team Size: 4 Members
+Domain: Mobile Application Development (Flutter + Firebase)
+Project Highlights
+Fully functional CRUD system
+Real-time Firebase integration
+Clean and modern UI design
+Cross-platform support (Android, iOS, Desktop)
+Scalable project structure
 
-## License
+## 📜 License
 
-This project is intended for educational and learning purposes.
+This project is developed for educational and learning purposes only.
