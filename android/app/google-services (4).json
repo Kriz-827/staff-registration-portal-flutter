@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414885565853",
+    "project_id": "flutter-staff-project",
+    "storage_bucket": "flutter-staff-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414885565853:android:26f9183520dedd7fcacb74",
+        "android_client_info": {
+          "package_name": "com.example.staff_reg_portal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPok5MOSsw0gdvuwaoW1T24sbFa94AcuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
